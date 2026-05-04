@@ -1,3 +1,9 @@
+# v0.11 (2026-05-04)
+- changed "CHANGELOG" to "CHANGELOG.md"
+- changed "DOCS" to "DOCS.md"
+- changed "LICENSE" to "LICENSE.md"
+- changed "README" to "README.md"
+
 # v0.1 (2026-05-04)
 
 - created repository
