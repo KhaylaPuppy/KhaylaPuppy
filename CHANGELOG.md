@@ -1,3 +1,15 @@
+# v0.12 (2026-05-04)
+- update style.css
+    - fixed overflow typo
+
+- update LICENSE.md
+    - added discord contact
+    - made license subsubsection into seperate section
+    - made permission table a subsection
+
+- update index.html
+    - added a placeholder header to show site is still being worked on
+
 # v0.11 (2026-05-04)
 - changed "CHANGELOG" to "CHANGELOG.md"
 - changed "DOCS" to "DOCS.md"
@@ -5,7 +17,6 @@
 - changed "README" to "README.md"
 
 # v0.1 (2026-05-04)
-
 - created repository
     - added license
         - license is clearly defined and strict, with a seperate informal section regarding permissions

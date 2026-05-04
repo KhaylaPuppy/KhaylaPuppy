@@ -11,7 +11,7 @@
     background: none;
     line-height: 1.5;
     scroll-behavior: smooth;
-    overflow: visable;
+    overflow: visible;
     flex-wrap: wrap;
     color: var(--text);
 }
