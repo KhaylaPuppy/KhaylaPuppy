@@ -1,0 +1,17 @@
+/* Global Reset */
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: none;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    overflow: visable;
+    flex-wrap: wrap;
+    color: var(--text);
+}
