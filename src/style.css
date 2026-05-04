@@ -1,3 +1,9 @@
+:root {
+    --text: #6f4f8f;
+    --bg: #ffbfff;
+    --fade: #ffebff;
+}
+
 /* Global Reset */
 * {
     box-sizing: border-box;
@@ -14,4 +20,24 @@
     overflow: visible;
     flex-wrap: wrap;
     color: var(--text);
+}
+
+html {
+    overflow: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    padding: 30px;
+    width :100%;
+    overflow: hidden;
+    margin: auto;
+}
+
+#bg {
+    position: fixed;
+    background: linear-gradient(0deg, var(--fade) 0%, var(--bg) 90%);
+    inset: 0;
+    z-index:-1;
 }

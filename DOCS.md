@@ -13,6 +13,9 @@ Self explanatory, attempts at explaining the repository will be here (you are al
 # /SRC
 The source folder for the website portion of this repository, as the other files are moreso housekeeping and not websitespecific. this folder and subsequent files and folders are scoped to the website only.
 
+## Cloudflare
+cloudflare is attatched to this repository, specifically, the /src folder. It checks if /src was updated, and if so, automatically rebuilds and deploys the updated version. Generally the rest of the repository is unused by cloudflare. Canonical link for this integration is `https://khaylapuppy.ca`
+
 # Style.css
 Style sheet for the entire site. style specific documentation can be found as comments inside this file. Its referenced by all html pages of my site, so it is a global style sheet for everthing.
 
