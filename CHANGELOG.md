@@ -1,3 +1,27 @@
+# v0.14 (2026-05-04)
+- update index.html
+    - added temp overlay to cover site
+    - added <header> with a clear title and a <nav> with some linked pages
+    - added <main>
+    - added a webring <nav>
+    - added a <footer> with some nice end notes
+
+- update profile.html
+    - added temp overlay to cover site
+    - added <header> with a clear title and a <nav> with some linked pages
+    - added <main>
+    - added a webring <nav>
+    - added a <footer> with some nice end notes
+
+- update style.css
+    - added footer color varible
+    - added styling for temp overlay
+    - added styling for <header>
+    - added styling for <nav>
+    - added styling for buttons (including hover and aria selected)
+    - added styling for <main>
+    - added styling for <footer>
+
 # v0.13 (2026-05-04)
 - update docs.md
     - added cloudflare subsection under /src
