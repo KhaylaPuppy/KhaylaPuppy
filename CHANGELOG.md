@@ -1,3 +1,16 @@
+# v0.13 (2026-05-04)
+- update docs.md
+    - added cloudflare subsection under /src
+
+- update index.html
+    - added background container
+
+- update style.css
+    - defined varibles under :root
+    - added text colour
+    - added background container styling
+    - made <html> take up full page
+    - made body take up needed space
 
 # v0.12 (2026-05-04)
 - update style.css
