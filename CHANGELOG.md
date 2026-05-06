@@ -1,3 +1,27 @@
+# v0.15 (2026-05-06)
+- update index.html
+    - added title ID to header title
+
+- update profil.html
+    - added title ID to header title
+    - added <style> block to <head> for page specific css
+    - fixed typo in primary <nav> <a> links
+    - added <section> as wrapper for content
+    - added multiple <div> inside <section> for visual container and content
+
+- update style.css
+    - add glow colour variable
+    - reorder <body> styling and added flex gap of 80px
+    - added borders and shadows to <header>, <div>, and button elements
+    - added padding to <header>
+    - added styling to the new <header> title
+    - decrease <nav> flex gap from 20px to 10px
+    - added button width, padding, and text align
+    - fix <main> styling typo
+    - added flex gap of 80px
+    - added styling to the new <divs>
+    - fixed <footer> styling typo
+
 # v0.14 (2026-05-04)
 - update index.html
     - added temp overlay to cover site
