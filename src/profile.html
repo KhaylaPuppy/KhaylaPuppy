@@ -11,7 +11,68 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <meta name="theme-color" content="#00ffff">
     <style>
+        #intro {
+            display: flex;
+            width: 1000px;
+        }
 
+        #pfp {
+            margin: 20px;
+            width: 300px;
+            height: 300px;
+            position: relative;
+            border-radius: 40px;
+            overflow: hidden;
+        }
+
+        #pfp img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            inset: 0;
+            object-fit: cover;
+            transform: translate(-30px, 170px) scale(2.1);
+            overflow: hidden;
+        }
+
+        #bio {
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+        }
+
+        #thing {
+            flex: auto;
+        }
+
+        span {
+            width: 600px;
+            margin: 20px auto;
+        }
+
+        #links {
+            width: 100%;
+            padding: 40px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        #links img {
+            height: 32px;
+            transition: transform 0.2s ease;
+        }
+
+        #links img:hover {
+            transform: scale(1.1);
+        }
+
+        #links a {
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -30,14 +91,105 @@
 
     <main>
         <section>
-            <div id="bio" class="content">
-                profile and bio stuff go here
+            <div id="intro" class="content">
+                <div id="pfp">
+                    <img src="https://static1.e621.net/data/sample/e5/fa/e5fa79e072dadec424de829cacc8dcb8.jpg" alt="https://e621.net/posts/3056564">
+                </div>
+                <div id="bio">
+                    <h1>KhaylaPuppy</h1>
+                    <span></span>
+                    <h2>I'm Khayla! very dum clicker trained puppygirl~</h2>
+                    <h2>Taken and owned by Wolfaxcilco ♥</h2>
+                    <h2>I made this webthingy :3</h2>
+                </div>
+            </div>
+            <div id="thing" class="content">
+                something go in here
             </div>
         </section>
 
         <section>
-            <div class="content">
-                more stuff go here
+            <div id="links" class="content">
+                <a href="https://khaylapuppy.ca"
+                    title="https://khaylapuppy.ca"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="icons/heart.svg" alt="https://khaylapuppy.ca">
+                </a>
+
+                <a href="https://ko-fi.com/khaylapuppy"
+                    title="https://ko-fi.com/khaylapuppy"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="icons/kofi.svg" alt="https://ko-fi.com/khaylapuppy">
+                </a>
+
+                <a href="https://github.com/KhaylaPuppy"
+                    title="https://github.com/KhaylaPuppy"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="icons/github.svg" alt="https://github.com/KhaylaPuppy">
+                </a>
+
+                <a href="https://onlyfans.com/KhaylaPuppy"
+                    title="https://onlyfans.com/KhaylaPuppy"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="icons/onlyfans.svg" alt="https://onlyfans.com/KhaylaPuppy">
+                </a>
+
+                <a href="https://discord.com/KhaylaPuppy"
+                    title="https://discord.com/KhaylaPuppy"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="icons/discord.svg" alt="https://discord.com/KhaylaPuppy">
+                </a>
+
+                <a href="https://bluesky.com/KhaylaPuppy"
+                    title="https://bluesky.com/KhaylaPuppy"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="icons/bluesky.svg" alt="https://bluesky.com/KhaylaPuppy">
+                </a>
+
+                <a href="https://steam.com/KhaylaPuppy"
+                    title="https://steam.com/KhaylaPuppy"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="icons/steam.svg" alt="https://steam.com/KhaylaPuppy">
+                </a>
+
+                <a href="https://twitch.com/KhaylaPuppy"
+                    title="https://twitch.com/KhaylaPuppy"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="icons/twitch.svg" alt="https://twitch.com/KhaylaPuppy">
+                </a>
+
+                <a href="https://youtube.com/KhaylaPuppy"
+                    title="https://youtube.com/KhaylaPuppy"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="icons/youtube.svg" alt="https://youtube.com/KhaylaPuppy">
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div id="colour" class="content">
+                Pallete
+            </div>
+
+            <div id="nicks" class="content">
+                Nicknames
+            </div>
+
+            <div id="boxes" class="content">
+                Boxes
+            </div>
+
+            <div id="quotes" class="content">
+                Funny Quotes
             </div>
         </section>
 

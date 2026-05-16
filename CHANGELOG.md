@@ -1,3 +1,30 @@
+# v0.16 (2026-05-16)
+- added icons folder
+    - added bluesky logo
+    - added discord logo
+    - added github logo
+    - added kofi logo
+
+- update index.html
+    - added sections of topics that will be expanded on
+
+- update profile.html
+    - added bio and proper intro
+    - added intro/bio styling
+    - added temporary profile image
+    - added image styling
+    - added more sections of topics that will be expanded on
+    - added socials buttons (some missing logos)
+    - added socials styling
+
+- update style.css
+    - added max width
+    - update gap
+    - simplify border styling
+    - added section styling
+    - change padding
+    - added temp span
+
 # v0.15 (2026-05-06)
 - update index.html
     - added title ID to header title
